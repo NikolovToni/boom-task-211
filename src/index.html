@@ -7,7 +7,10 @@
       name="description"
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
   </head>
   <body>
     <div class="main">
@@ -17,4 +20,12 @@
       <div class="boom">💥💥💥Boom💥💥💥</div>
     </div>
   </body>
+  <script>
+    const link = document.querySelector("a");
+    link.getAttribute("href");
+    link.setAttribute("href", "#boom");
+    const boomClass = document.querySelector(".boom");
+    boomClass.getAttribute("id");
+    boomClass.setAttribute("id", "boom");
+  </script>
 </html>
